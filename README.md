@@ -1,2 +1,2 @@
 # WanderLust
-This is my first MERN stack project.
+This is my first full stack project.
