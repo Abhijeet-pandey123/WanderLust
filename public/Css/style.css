@@ -1,0 +1,110 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
+    /* width: 90vw !important;
+    margin: auto !important; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex:1;
+}
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+.f-info-links a{
+    text-decoration: none;
+    color:#222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+.f-info-links,.f-info-socials, .f-info-brand{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-info-socials i {
+    font-size: 1.4rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text{
+    font-weight: 400 !important;
+}
+.listing-link{
+    text-decoration: none !important;
+}
+/* card {
+} */
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+/* newpage */
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+/* edit page */
+.edit-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+/* show page */
+
+.show-img{
+    height: 50vh;
+}
+.btns{
+    margin-bottom: 1rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+}
+.show-edit-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    margin-right: 2rem;
+    height: 2.4rem;
+}
